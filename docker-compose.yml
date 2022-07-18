@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  currency-conversion-service:
+    build: .
+    ports:
+      - "8100:8100"
+    environment:
+      - CURRENCY_EXCHANGE_URI=http://currency-exchange-service:8000
+    networks:
+      - currency-network
+
+networks:
+  currency-network:
+    name: currency-network
+    driver: bridge
