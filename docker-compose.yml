@@ -13,3 +13,4 @@ networks:
   currency-network:
     name: currency-network
     driver: bridge
+
