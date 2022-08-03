@@ -1,5 +1,4 @@
 # Currency Conversion Micro Service
-
 Run com.in28minutes.microservices.currencyconversionservice.CurrencyConversionServiceApplication as a Java Application.
 
 ## Containerization
